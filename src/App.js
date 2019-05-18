@@ -70,6 +70,10 @@ function App() {
 
   return (
     <div>
+      <img
+        src="https://raw.githubusercontent.com/Rocketseat/unform/master/assets/logo.png"
+        alt="Unform logo"
+      />
       <h1>Contact form</h1>
 
       <Form onSubmit={handleSubmit} schema={schema}>
